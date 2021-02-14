@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const compression = require('compression');
 const ck = require('ckey');
 
-const PORT = 8080;
+const PORT = ck.PORT || 8080;
 
 const app = express();
 
